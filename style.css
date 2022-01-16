@@ -1,0 +1,121 @@
+html, body {
+    margin:0;
+    font-family: 'Raleway';
+}
+
+header {
+    padding: 15px 80px;
+    background-color: #1F2937;
+    color: white;
+}
+
+.container {
+    display:flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+}
+
+.selfIntro {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 80px;
+    background-color: #1F2937;
+    color:white;
+}
+
+.selfIntro p {
+    font-size: 18px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    padding:0px 80px 15px 80px;
+}
+
+.skills h1 {
+    align-self: center;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.experience {
+    display:flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 15px 80px;
+    background-color: #E5E7EB;
+}
+
+.experience h1 {
+    align-self: center;
+}
+
+.experience h2 {
+    margin-bottom: 0px;
+}
+
+.experience h4,
+.experience p {
+    margin-bottom: 0px;
+}
+
+hr {
+    width: 100%;
+}
+
+.content_1,
+.content_2,
+.content_3,
+.content_4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content_1 p,
+.content_2 p,
+.content_3 p,
+.content_4 p {
+    align-self: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 50px 0;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    padding:0 120px;
+    width:50%;
+    background-color: #3882F6;
+    color:white;
+    border-radius:10px;
+}
+
+.contact .bt {
+    align-self: center;
+    border: white 1.5px solid;
+    border-radius: 4px;
+    padding:8px 20px;
+}
+
+.bt a {
+    color: white;
+}
